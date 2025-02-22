@@ -1,0 +1,37 @@
+@model Microsoft.AspNetCore.Identity.IdentityUser
+@{
+    ViewData["Title"] = "Assign Role";
+}
+
+<h2>Assign Role to @Model.Email</h2>
+
+<form asp-action="AssignRole" method="post">
+    <input type="hidden" name="userId" value="@Model.Id" />
+    
+    <div class="form-group">
+        <label>Select Role</label>
+        <select name="roleName" class="form-control">
+            @foreach (var role in ViewBag.Roles)
+            {
+                <option value="@role.Name">@role.Name</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Assign Role</button>
+</form>
+
+<h3 class="mt-4">Current Roles</h3>
+<ul class="list-group">
+    @foreach (var role in ViewBag.UserRoles)
+    {
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            @role
+            <form asp-action="RemoveRole" method="post">
+                <input type="hidden" name="userId" value="@Model.Id" />
+                <input type="hidden" name="roleName" value="@role" />
+                <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+            </form>
+        </li>
+    }
+</ul>

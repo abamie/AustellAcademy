@@ -1,0 +1,42 @@
+@model PhotoUploadViewModel
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container mt-4">
+    <h2 class="text-center">Edit Photo</h2>
+
+    <form asp-action="Edit" asp-controller="Gallery" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id">
+
+        <div class="mb-3">
+            <label class="form-label">Current Image</label>
+            <br>
+            <img src="@Model.CurrentImagePath" alt="Photo" class="img-thumbnail" width="150">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Change Image (Optional)</label>
+            <input type="file" class="form-control" id="newImage" name="NewImage" accept="image/*">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Caption</label>
+            <input type="text" class="form-control" asp-for="Caption" required>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Category</label>
+            <select class="form-select" asp-for="Category">
+                <option value="nature">Nature</option>
+                <option value="events">Events</option>
+                <option value="classroom">Classroom</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+
+

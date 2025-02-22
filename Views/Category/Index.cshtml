@@ -1,0 +1,16 @@
+@model IEnumerable<Category>
+
+<h2>Categories</h2>
+<a href="/Category/Create" class="btn btn-primary">Add Category</a>
+<table class="table">
+    <tr>
+        <th>Name</th>
+    </tr>
+    @foreach (var category in Model)
+    {
+        <tr>
+            <td>@category.Name</td>
+        </tr>
+    }
+</table>
+

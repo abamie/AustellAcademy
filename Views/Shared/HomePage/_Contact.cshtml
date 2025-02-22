@@ -1,0 +1,21 @@
+
+@model List<Content>
+
+
+<div class="row">
+    @foreach (var content in Model)
+    {
+        @if(content.Title.Equals("Contact"))
+        {
+            <div>@Html.Raw(content.Body)</div> 
+        }
+    }
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h2>Contact Us</h2>
+        <p>Have questions? We're here to help. Reach out to us today!</p>
+        <a asp-controller="Home" asp-action="Contact" class="btn btn-outline-primary">Contact Us</a>
+    </div>
+</div>

@@ -1,0 +1,18 @@
+@model Content
+
+<h2>✏️ Edit Notice</h2>
+
+<form method="post">
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <input type="text" class="form-control" asp-for="Title" required />
+    </div>
+    
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" asp-for="Body" rows="4" required></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-success">✅ Update Notice</button>
+    <a href="/Content/NoticeBoard" class="btn btn-secondary">⬅️ Cancel</a>
+</form>

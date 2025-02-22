@@ -1,0 +1,39 @@
+@model IEnumerable<Content>
+
+<h2 class="mb-4">📌 Notice Board</h2>
+
+<a href="/Content/Create" class="btn btn-primary mb-3">➕ Add New Notice</a>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">No notices available.</div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var notice in Model)
+                {
+                    <tr>
+                        <td>@notice.Title</td>
+                        <td>@notice.Body</td>
+                        <td>@notice.CreatedAt.ToString("dd MMM yyyy")</td>
+                        <td>
+                            <a href="/Content/EditNotice/@notice.Id" class="btn btn-warning btn-sm">✏️ Edit</a>
+                            <a href="/Content/DeleteNotice/@notice.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?');">🗑️ Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

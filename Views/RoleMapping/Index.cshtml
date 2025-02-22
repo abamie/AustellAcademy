@@ -1,0 +1,33 @@
+@model IEnumerable<UserWithRolesViewModel>
+
+<h2>User Role Mapping</h2>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Manage</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    @if (user.Roles.Any())
+                    {
+                        <span class="badge bg-success">@string.Join(", ", user.Roles)</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-secondary">No Role Assigned</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="AssignRole" asp-route-id="@user.UserId" class="btn btn-primary">Manage Roles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

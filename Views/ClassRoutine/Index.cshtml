@@ -1,0 +1,49 @@
+@model Dictionary<string, List<ClassRoutine>>
+
+@{
+    ViewData["Title"] = "Class Routine";
+}
+
+<h2 class="mb-4">Class Routine</h2>
+
+<ul class="nav nav-tabs" id="classRoutineTab" role="tablist">
+    @foreach (var classGroup in Model)
+    {
+        <li class="nav-item" role="presentation">
+            <button class="nav-link @(classGroup.Equals(Model.First()) ? "active" : "")" id="@classGroup.Key-tab" data-bs-toggle="tab" data-bs-target="#@classGroup.Key" type="button" role="tab">
+                @classGroup.Key
+            </button>
+        </li>
+    }
+</ul>
+
+<div class="tab-content mt-3" id="classRoutineTabContent">
+    @foreach (var classGroup in Model)
+    {
+        <div class="tab-pane fade @(classGroup.Equals(Model.First()) ? "show active" : "")" id="@classGroup.Key" role="tabpanel">
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Teacher</th>
+                        <th>DayOfWeek</th>
+                        <th>Start Time</th>
+                        <th>End Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var routine in classGroup.Value)
+                    {
+                        <tr>
+                            <td>@routine.Subject</td>
+                            <td>@routine.Teacher</td>
+                            <td>@routine.DayOfWeek</td>
+                            <td>@routine.StartTime</td>
+                            <td>@routine.EndTime</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

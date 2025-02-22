@@ -1,0 +1,38 @@
+﻿@using AustellAcademyAdmissions.Models
+@model AustellAcademyAdmissions.Models.SchoolViewModel
+
+@{
+    ViewData["Title"] = "Welcome to Austell Academy";
+}
+
+<partial name="~/Views\Shared\HomePage\_Header.cshtml" model="Model.Contents" />
+
+
+
+<!-- About Section -->
+<div class="row mt-5">
+    <div class="col-md-6">
+
+
+        <partial name="~/Views\Shared\HomePage\_About.cshtml" model="Model.Contents" />
+
+        <a asp-controller="Home" asp-action="About" class="btn btn-outline-secondary">Learn More</a>
+    </div>
+    <div class="col-md-6">
+        <img src="~/images/school.jpg" alt="Austell Academy" class="img-fluid rounded" />
+    </div>
+</div>
+<div class="col-md-12">
+
+    <partial name="~/Views\Shared\HomePage\_NoticeBoard.cshtml" model="Model.Contents" />
+
+</div>
+<div class="row">
+<partial name="~/Views\Shared\HomePage\_Overview.cshtml" model="Model.Contents" />
+</div>
+
+<div class="row">
+    <partial name="~/Views\Shared\HomePage\_Contact.cshtml" model="Model.Contents" />
+</div>>
+
+<!-- Contact Section -->

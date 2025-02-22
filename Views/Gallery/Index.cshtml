@@ -1,0 +1,53 @@
+@model IEnumerable<Photo>
+
+<!-- Bootstrap & Lightbox CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+<div class="container mt-4">
+    <h2 class="text-center">Photo Gallery</h2>
+    
+    <!-- Filter Buttons -->
+    <div class="text-center mb-4">
+        <button class="btn btn-primary filter-btn" data-filter="all">All</button>
+        <button class="btn btn-secondary filter-btn" data-filter="nature">Nature</button>
+        <button class="btn btn-secondary filter-btn" data-filter="events">Events</button>
+        <button class="btn btn-secondary filter-btn" data-filter="classroom">Classroom</button>
+    </div>
+
+    <div class="row">
+        @foreach (var photo in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-6 mb-4 gallery-item" data-category="@photo.Category.ToLower()">
+                <div class="card">
+                    <a href="@photo.ImagePath" data-lightbox="gallery" data-title="@photo.Caption">
+                        <img src="@photo.ImagePath" class="card-img-top img-fluid" alt="@photo.Caption">
+                    </a>
+                    <div class="card-body text-center">
+                        <p class="card-text">@photo.Caption</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<!-- Bootstrap & Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
+<!-- Filter Script -->
+<script>
+    document.querySelectorAll(".filter-btn").forEach(button => {
+        button.addEventListener("click", function() {
+            let filter = this.getAttribute("data-filter");
+            document.querySelectorAll(".gallery-item").forEach(item => {
+                if (filter === "all" || item.getAttribute("data-category") === filter) {
+                    item.style.display = "block";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        });
+    });
+</script>

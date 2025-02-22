@@ -1,0 +1,30 @@
+@using AustellAcademyAdmissions.Models
+@model IEnumerable<AustellAcademyAdmissions.Models.Content>
+
+<div class="card mt-4">
+    <div class="card-header bg-primary text-white">
+        <h5>Notice Board</h5>
+    </div>
+    <div class="card-body">
+        @if (Model != null && Model.Any())
+        {
+            <ul class="list-group">
+                @foreach (var notice in Model)
+                {
+                    @if(notice.Title.Equals("test"))
+                    {
+                    <li class="list-group-item">
+                        <h6>@notice.Title</h6>
+                        <p>@notice.Body</p>
+                        <small class="text-muted">@notice.CreatedAt.ToString("MMMM dd, yyyy")</small>
+                    </li>
+                    }
+                }
+            </ul>
+        }
+        else
+        {
+            <p class="text-muted">No notices available.</p>
+        }
+    </div>
+</div>

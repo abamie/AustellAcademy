@@ -1,0 +1,22 @@
+@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+
+<h2>User Role Mapping</h2>
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Manage Roles</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    <a asp-action="AssignRole" asp-route-id="@user.Id" class="btn btn-primary">Manage Roles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
