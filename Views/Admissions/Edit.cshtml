@@ -1,0 +1,64 @@
+@model Student
+
+@{
+    ViewData["Title"] = "Edit Admission";
+}
+
+<h2>Edit Admission</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="DocumentPath" /> <!-- Hidden field for existing file -->
+
+    <div class="mb-3">
+        <label class="form-label">Student Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="Gender" class="form-label">Gender</label>
+        <select asp-for="Gender" class="form-control">
+            <option value="">Select Gender</option>
+            <option value="Male" selected="@(Model.Gender == "Male")">Male</option>
+            <option value="Female" selected="@(Model.Gender == "Female")">Female</option>
+            <option value="Other" selected="@(Model.Gender == "Other")">Other</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Status</label>
+        <select asp-for="Status" class="form-control">
+            <option value="Pending">Pending</option>
+            <option value="Approved">Approved</option>
+            <option value="Rejected">Rejected</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Upload New Document (Optional)</label>
+        <input type="file" name="documentFile" class="form-control" />
+
+        @if (!string.IsNullOrEmpty(Model.DocumentPath))
+        {
+            <p>Current File: <a href="@Url.Content(Model.DocumentPath)" target="_blank">View Document</a></p>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

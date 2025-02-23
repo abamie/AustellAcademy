@@ -222,3 +222,4 @@ C:\AustellAcademyAdmissions\obj\Debug\net9.0\refint\AustellAcademyAdmissions.dll
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.pdb
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.genruntimeconfig.cache
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\ref\AustellAcademyAdmissions.dll
+C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.sourcelink.json

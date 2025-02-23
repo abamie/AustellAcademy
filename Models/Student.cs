@@ -31,5 +31,8 @@ namespace AustellAcademyAdmissions.Models
         public required string Gender { get; set; } // New property
 
         public required string DocumentPath { get; set; }
+
+        [StringLength(20)]
+        public string Status { get; set; } = "Pending"; // Default status is "Pending"
     }
 }

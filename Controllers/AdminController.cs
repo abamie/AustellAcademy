@@ -22,6 +22,7 @@ namespace AustellAcademyAdmissions.Controllers
             _roleManager = roleManager;
             _userManager = userManager;
         }
+        
 
         public async Task<IActionResult> Applications()
         {
