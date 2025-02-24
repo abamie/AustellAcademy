@@ -27,7 +27,7 @@ namespace AustellAcademyAdmissions.Controllers
         public async Task<IActionResult> Applications()
         {
             var applications = await _context.Applications
-                .Include(a => a.Student)
+                .Include(a => a.admission)
                 .ToListAsync();
             return View(applications);
         }

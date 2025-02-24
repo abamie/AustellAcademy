@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ecjdb2uuye</Fingerprint>
-      <Integrity>LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=</Integrity>
+      <Fingerprint>j7nyxmlq7p</Fingerprint>
+      <Integrity>Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -1242,6 +1242,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\30cc8b9f-df36-464a-b5e4-cb94e46cfb1b_Ashok15th.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AustellAcademyAdmissions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AustellAcademyAdmissions</BasePath>
+      <RelativePath>Uploads/312d8656-dae1-4740-9c85-f155a0d4a39c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9kp4rlpyig</Fingerprint>
+      <Integrity>lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\39eb2726-922f-4b68-b770-f360c2e51827_15thStud.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AustellAcademyAdmissions</SourceId>
@@ -1385,6 +1403,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\9c0634ff-db36-486b-86e5-fec3e062e595_aswhani.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AustellAcademyAdmissions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AustellAcademyAdmissions</BasePath>
+      <RelativePath>Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zvg357h9vt</Fingerprint>
+      <Integrity>P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\c174f375-a32b-4369-a616-63847e61dd0f_aswhani4.jpg'))">
       <SourceType>Package</SourceType>

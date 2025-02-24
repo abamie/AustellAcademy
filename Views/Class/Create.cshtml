@@ -1,0 +1,23 @@
+@model Class
+
+@{
+    ViewData["Title"] = "Create Class";
+}
+
+<h2>Create Class</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Class Name</label>
+        <input asp-for="ClassName" class="form-control" required />
+        <span asp-validation-for="ClassName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

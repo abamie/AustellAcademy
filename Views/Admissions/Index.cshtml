@@ -1,36 +1,69 @@
-@model List<Student>
+@model IEnumerable<Admission>
 
 @{
-    ViewData["Title"] = "Admissions List";
+    ViewData["Title"] = "Admission List";
 }
 
-<h2>Admissions List</h2>
+<h2 class="text-center">Admission List</h2>
 <a asp-action="Create" class="btn btn-success mb-3">New Admission</a>
 
 <table class="table table-bordered">
-    <thead>
+    <thead class="table-dark">
         <tr>
-            <th>ID</th>
-            <th>Student Name</th>
+            <th>#</th>
+            <th>Name</th>
             <th>Email</th>
-            <th>Course</th>
+            <th>Phone</th>
+            <th>Class</th>
+            <th>Gender</th>
             <th>Status</th>
             <th>Actions</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var admission in Model)
+        @if (Model.Any())
+        {
+            int count = 1;
+            @foreach (var admission in Model)
+            {
+                <tr>
+                    <td>@count</td>
+                    <td>@admission.Name</td>
+                    <td>@admission.Email</td>
+                    <td>@admission.Phone</td>
+                    <td>@admission.Class?.ClassName</td>
+                    <td>@admission.Gender</td>
+                    <td>
+                        <span
+                            class="badge @(admission.Status == "Approved" ? "bg-success" : admission.Status == "Pending" ? "bg-warning" : "bg-danger")">
+                            @admission.Status
+                        </span>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@admission.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@admission.Id" class="btn btn-danger btn-sm"
+                            onclick="return confirm('Are you sure you want to delete this admission?');">Delete</a>
+                        @if (admission.Status == "Pending")
+                        {
+                            <a asp-action="Confirm" asp-route-id="@admission.Id" class="btn btn-success btn-sm">
+                                Confirm & Email
+                            </a>
+                        }
+                        @if (admission.Status == "Approved")
+                        {
+                            <a asp-action="ConvertToStudent" asp-controller="Admissions" asp-route-id="@admission.Id" class="btn btn-success">🎓 Convert to Student</a>
+                           
+                        }
+
+                    </td>
+                </tr>
+                count++;
+            }
+        }
+        else
         {
             <tr>
-                <td>@admission.Id</td>
-                <td>@admission.Name</td>
-                <td>@admission.Email</td>
-                <td>@admission.Address</td>
-                <td>@admission.Phone</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@admission.Id" class="btn btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@admission.Id" class="btn btn-danger">Delete</a>
-                </td>
+                <td colspan="8" class="text-center">No admissions available.</td>
             </tr>
         }
     </tbody>

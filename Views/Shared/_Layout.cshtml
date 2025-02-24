@@ -36,27 +36,14 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Home" asp-action="Contact">Contact</a>
                         </li>
-                         <li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Gallery" asp-action="Index">Gallery</a>
                         </li>
 
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Admissions" asp-action="Apply">Admission</a>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="ClassRoutine" asp-action="Index">Routine</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Content" asp-action="Index">Content</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="Role" asp-action="Index">Manage Roles</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-controller="RoleMapping" asp-action="Index">User Role
-                                    Mapping</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-controller="Content"
@@ -65,28 +52,63 @@
 
                         }
                     </ul>
-
-
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Manage
+                                Admission
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" asp-controller="Class" asp-action="Create">Class
+                                        Create</a></li>
+                                <li><a class="dropdown-item" asp-controller="Class" asp-action="Index">Class List</a>
+                                </li>
+                                <li><a class="dropdown-item" asp-controller="Admissions" asp-action="Create">Admission
+                                        Create</a></li>
+                                <li><a class="dropdown-item" asp-controller="Admissions" asp-action="Index">Admission
+                                        List</a></li>
+                                <li><a class="dropdown-item" asp-controller="Students" asp-action="Index">Student
+                                        Managment</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Content Manage
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" asp-controller="Category" asp-action="Index">Categories</a>
                                 </li>
                                 <li><a class="dropdown-item" asp-controller="Content" asp-action="Index">Content</a>
                                 </li>
+                                <li><a class="dropdown-item" asp-controller="Content" asp-action="NoticeBoard">Notice
+                                        Board</a></li>
+                                <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Index">Gallery</a>
+                                </li>
+                                <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Upload">Photo
+                                        Upload</a></li>
+                                <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Manage">Manage Photo
+                                    </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Role Manage
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" asp-controller="Role" asp-action="Index">Roles</a></li>
                                 <li><a class="dropdown-item" asp-controller="RoleMapping" asp-action="Index">User Role
                                         Mapping</a></li>
                                 <li><a class="dropdown-item" asp-controller="Content" asp-action="NoticeBoard">Notice
                                         Board</a></li>
-                                <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Index">Gallery</a></li>
-                                <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Upload">Photo Upload</a></li>
-                                 <li><a class="dropdown-item" asp-controller="Gallery" asp-action="Manage">Manage Photo </a></li>
-                                 <li><a class="dropdown-item" asp-controller="Admissions" asp-action="Index">Admission Edit </a></li>
                             </ul>
                         </li>
                     </ul>

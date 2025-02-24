@@ -140,10 +140,10 @@ C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.csproj.Cor
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.MvcApplicationPartsAssemblyInfo.cache
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.RazorAssemblyInfo.cache
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.RazorAssemblyInfo.cs
+C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.sourcelink.json
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\scopedcss\bundle\AustellAcademyAdmissions.styles.css
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\scopedcss\projectbundle\AustellAcademyAdmissions.bundle.scp.css
-C:\AustellAcademyAdmissions\obj\Debug\net9.0\compressed\492umbfx6l-ecjdb2uuye.gz
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\compressed\o8vb9j83pg-61n19gt1b8.gz
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\compressed\wjts8rsjqs-xtxxf3hu2r.gz
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\compressed\hc0ilptrgw-bqjiyaj88i.gz
@@ -222,4 +222,4 @@ C:\AustellAcademyAdmissions\obj\Debug\net9.0\refint\AustellAcademyAdmissions.dll
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.pdb
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.genruntimeconfig.cache
 C:\AustellAcademyAdmissions\obj\Debug\net9.0\ref\AustellAcademyAdmissions.dll
-C:\AustellAcademyAdmissions\obj\Debug\net9.0\AustellAcademyAdmissions.sourcelink.json
+C:\AustellAcademyAdmissions\obj\Debug\net9.0\compressed\492umbfx6l-j7nyxmlq7p.gz

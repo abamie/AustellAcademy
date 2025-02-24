@@ -8,11 +8,14 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
     public DbSet<Student> Students { get; set; }
+    public DbSet<Admission> Admissions { get; set; }
     public DbSet<Application> Applications { get; set; }
     public DbSet<ClassRoutine> ClassRoutines { get; set; }
     public DbSet<Content> Contents { get; set; }
     public DbSet<Category> Categories { get; set; }
     public DbSet<Photo> Photos { get; set; }
+
+     public DbSet<Class> Classes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

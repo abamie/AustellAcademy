@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ie4oItKmQOmQPS10OKfYUe7eb5HeMr+xWZqWi6EOZvs=",
+  "Hash": "DP3ztuNU1dYJfTtjqMUpBdnum5Cs3YGePU864G7mpNk=",
   "Source": "AustellAcademyAdmissions",
   "BasePath": "_content/AustellAcademyAdmissions",
   "Mode": "Default",
@@ -227,12 +227,12 @@
       "OriginalItemSpec": "C:\\AustellAcademyAdmissions\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-ecjdb2uuye.gz",
+      "Identity": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-j7nyxmlq7p.gz",
       "SourceId": "AustellAcademyAdmissions",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/AustellAcademyAdmissions",
-      "RelativePath": "css/site#[.{fingerprint=ecjdb2uuye}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=j7nyxmlq7p}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -241,8 +241,8 @@
       "RelatedAsset": "C:\\AustellAcademyAdmissions\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qbsnarf1h5",
-      "Integrity": "2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk=",
+      "Fingerprint": "cpaeagg74e",
+      "Integrity": "sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\AustellAcademyAdmissions\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ecjdb2uuye",
-      "Integrity": "LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=",
+      "Fingerprint": "j7nyxmlq7p",
+      "Integrity": "Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -2831,6 +2831,27 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\30cc8b9f-df36-464a-b5e4-cb94e46cfb1b_Ashok15th.jpg"
     },
     {
+      "Identity": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg",
+      "SourceId": "AustellAcademyAdmissions",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AustellAcademyAdmissions\\wwwroot\\",
+      "BasePath": "_content/AustellAcademyAdmissions",
+      "RelativePath": "Uploads/312d8656-dae1-4740-9c85-f155a0d4a39c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9kp4rlpyig",
+      "Integrity": "lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg"
+    },
+    {
       "Identity": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\39eb2726-922f-4b68-b770-f360c2e51827_15thStud.jpg",
       "SourceId": "AustellAcademyAdmissions",
       "SourceType": "Discovered",
@@ -2999,6 +3020,27 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\9c0634ff-db36-486b-86e5-fec3e062e595_aswhani.jpg"
     },
     {
+      "Identity": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg",
+      "SourceId": "AustellAcademyAdmissions",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\AustellAcademyAdmissions\\wwwroot\\",
+      "BasePath": "_content/AustellAcademyAdmissions",
+      "RelativePath": "Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zvg357h9vt",
+      "Integrity": "P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg"
+    },
+    {
       "Identity": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\c174f375-a32b-4369-a616-63847e61dd0f_aswhani4.jpg",
       "SourceId": "AustellAcademyAdmissions",
       "SourceType": "Discovered",
@@ -3151,7 +3193,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3204,7 +3246,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3241,7 +3283,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3288,7 +3330,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3349,7 +3391,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3394,7 +3436,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3449,7 +3491,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3510,7 +3552,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3555,7 +3597,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3610,7 +3652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3663,7 +3705,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3700,7 +3742,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 22 Feb 2025 11:55:56 GMT"
+          "Value": "Mon, 24 Feb 2025 05:46:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3724,12 +3766,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-ecjdb2uuye.gz",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-j7nyxmlq7p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001841620626"
+          "Quality": "0.001557632399"
         }
       ],
       "ResponseHeaders": [
@@ -3739,15 +3781,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "641"
         },
         {
           "Name": "ETag",
-          "Value": "\"2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk=\""
+          "Value": "\"sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3767,13 +3809,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=\""
+          "Value": "W/\"Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA="
+          "Value": "sha256-Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo="
         }
       ]
     },
@@ -3788,7 +3830,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1469"
+          "Value": "1863"
         },
         {
           "Name": "Content-Type",
@@ -3796,11 +3838,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=\""
+          "Value": "\"Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3810,13 +3852,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA="
+          "Value": "sha256-Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-ecjdb2uuye.gz",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-j7nyxmlq7p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3825,7 +3867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "641"
         },
         {
           "Name": "Content-Type",
@@ -3833,11 +3875,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk=\""
+          "Value": "\"sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3855,18 +3897,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk="
+          "Value": "sha256-sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw="
         }
       ]
     },
     {
-      "Route": "css/site.ecjdb2uuye.css",
-      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-ecjdb2uuye.gz",
+      "Route": "css/site.j7nyxmlq7p.css",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-j7nyxmlq7p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001841620626"
+          "Quality": "0.001557632399"
         }
       ],
       "ResponseHeaders": [
@@ -3876,15 +3918,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "641"
         },
         {
           "Name": "ETag",
-          "Value": "\"2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk=\""
+          "Value": "\"sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3904,13 +3946,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=\""
+          "Value": "W/\"Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ecjdb2uuye"
+          "Value": "j7nyxmlq7p"
         },
         {
           "Name": "label",
@@ -3918,12 +3960,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA="
+          "Value": "sha256-Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo="
         }
       ]
     },
     {
-      "Route": "css/site.ecjdb2uuye.css",
+      "Route": "css/site.j7nyxmlq7p.css",
       "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3933,7 +3975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1469"
+          "Value": "1863"
         },
         {
           "Name": "Content-Type",
@@ -3941,11 +3983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA=\""
+          "Value": "\"Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3955,7 +3997,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ecjdb2uuye"
+          "Value": "j7nyxmlq7p"
         },
         {
           "Name": "label",
@@ -3963,13 +4005,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LjaSDQ98ials8Pdtte2cKCy2WZJLM9jXxoFaQR8GBmA="
+          "Value": "sha256-Aa0lnXgXuBalYOJztt5Ujw/yNDZoVGzd5wMK2UzDVxo="
         }
       ]
     },
     {
-      "Route": "css/site.ecjdb2uuye.css.gz",
-      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-ecjdb2uuye.gz",
+      "Route": "css/site.j7nyxmlq7p.css.gz",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\obj\\Debug\\net9.0\\compressed\\492umbfx6l-j7nyxmlq7p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3978,7 +4020,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "542"
+          "Value": "641"
         },
         {
           "Name": "Content-Type",
@@ -3986,11 +4028,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk=\""
+          "Value": "\"sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 17 Feb 2025 17:30:29 GMT"
+          "Value": "Mon, 24 Feb 2025 07:00:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4008,7 +4050,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ecjdb2uuye"
+          "Value": "j7nyxmlq7p"
         },
         {
           "Name": "label",
@@ -4016,7 +4058,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-2ko6WA9j9+Sa7G/6cyt/AvSfTHwqr6bObAC8LSipLjk="
+          "Value": "sha256-sHeVkHvT5RE1FPFAaXwLp0X5pT1c4BGbKQ/RbexioVw="
         }
       ]
     },
@@ -22691,6 +22733,88 @@
       ]
     },
     {
+      "Route": "Uploads/312d8656-dae1-4740-9c85-f155a0d4a39c.9kp4rlpyig.jpg",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8047"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 05:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9kp4rlpyig"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/312d8656-dae1-4740-9c85-f155a0d4a39c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/312d8656-dae1-4740-9c85-f155a0d4a39c.jpg",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\312d8656-dae1-4740-9c85-f155a0d4a39c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8047"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 05:59:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lybaLS7fA9zd5NhHfun90ohVyAhCQpINDOgUxgF7eDA="
+        }
+      ]
+    },
+    {
       "Route": "Uploads/39eb2726-922f-4b68-b770-f360c2e51827_15thStud.h6ge1e0z5n.jpg",
       "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\39eb2726-922f-4b68-b770-f360c2e51827_15thStud.jpg",
       "Selectors": [],
@@ -23343,6 +23467,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-LbWdm2KrhHadpGTOpBGPc7OshVhpF8nzJBjA5e93gpc="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 06:32:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk="
+        }
+      ]
+    },
+    {
+      "Route": "Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c.zvg357h9vt.jpg",
+      "AssetFile": "C:\\AustellAcademyAdmissions\\wwwroot\\Uploads\\a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 24 Feb 2025 06:32:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zvg357h9vt"
+        },
+        {
+          "Name": "label",
+          "Value": "Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-P2mwu9u9R7Nt75CsBh6oaiCr+CiUYdDokzN2tR8JRtk="
         }
       ]
     },

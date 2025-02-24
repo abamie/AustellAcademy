@@ -1,0 +1,44 @@
+@model Admission
+
+@{
+    ViewData["Title"] = "Confirm Admission";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-success">Confirm Admission</h2>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h4>Are you sure you want to confirm this admission?</h4>
+            <hr>
+
+            <dl class="row">
+                <dt class="col-sm-4">Student Name:</dt>
+                <dd class="col-sm-8">@Model.Name</dd>
+
+                <dt class="col-sm-4">Email:</dt>
+                <dd class="col-sm-8">@Model.Email</dd>
+
+                <dt class="col-sm-4">Phone:</dt>
+                <dd class="col-sm-8">@Model.Phone</dd>
+
+                <dt class="col-sm-4">Class:</dt>
+                <dd class="col-sm-8">@Model.Class?.ClassName</dd>
+
+                <dt class="col-sm-4">Gender:</dt>
+                <dd class="col-sm-8">@Model.Gender</dd>
+
+                <dt class="col-sm-4">Status:</dt>
+                <dd class="col-sm-8">
+                    <span class="badge @(Model.Status == "Pending" ? "bg-warning" : "bg-success")">@Model.Status</span>
+                </dd>
+            </dl>
+
+            <form asp-action="ConfirmAdmission" method="post">
+                <input type="hidden" asp-for="Id" />
+                <button type="submit" class="btn btn-success">Confirm & Send Email</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>

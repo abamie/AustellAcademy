@@ -23,6 +23,8 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Register Email Service
 builder.Services.AddTransient<EmailService>();
 
+
+
 // Add MVC Support
 builder.Services.AddControllersWithViews();
 

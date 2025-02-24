@@ -20,8 +20,8 @@
         @foreach (var application in Model)
         {
             <tr>
-                <td>@application.Student.Name</td>
-                <td>@application.Student.Email</td>
+                <td>@application.admission.Name</td>
+                <td>@application.admission.Email</td>
                 <td>@application.ApplicationDate.ToShortDateString()</td>
                 <td>@application.Status</td>
                 <td>

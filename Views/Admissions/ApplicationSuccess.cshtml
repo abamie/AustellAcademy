@@ -1,7 +1,73 @@
+@model AdmissionViewModel
+
 @{
     ViewData["Title"] = "Application Successful";
 }
 
-<h2>Application Submitted Successfully!</h2>
-<p>Thank you for applying to Austell Academy. We will review your application and get back to you shortly.</p>
-<a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">Return to Home</a>
+<div class="container text-center mt-5">
+    <div class="card shadow-lg p-4">
+        <h2 class="text-success">🎉 Application Submitted Successfully!</h2>
+        <p class="lead">
+            Thank you for applying to <strong>Austell Academy</strong>. Our admissions team will review your application 
+            and contact you shortly.
+        </p>
+
+        <hr />
+
+        <h4 class="text-primary">📄 Application Details</h4>
+        <table class="table table-bordered mt-3">
+            <tr>
+                <th>Student Name:</th>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <th>Email:</th>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <th>Phone:</th>
+                <td>@Model.Phone</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>@Model.Address</td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>@Model.Gender</td>
+            </tr>
+            <tr>
+                <th>Class:</th>
+                <td>@Model.ClassName</td>
+            </tr>
+            <tr>
+                <th>Status:</th>
+                <td><span class="badge bg-warning">@Model.Status</span></td>
+            </tr>
+            @if (!string.IsNullOrEmpty(Model.DocumentPath))
+            {
+                <tr>
+                    <th>Uploaded Document:</th>
+                    <td>
+                        <a href="@Model.DocumentPath" target="_blank" class="btn btn-info">📂 View Document</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <div class="mt-4">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-primary">🏠 Return to Home</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        max-width: 700px;
+        margin: auto;
+        border-radius: 12px;
+    }
+    th {
+        width: 30%;
+    }
+</style>
