@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using AustellAcademyAdmissions.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using AustellAcademyAdmissions.Service;
 
 
 namespace AustellAcademyAdmissions.Controllers
@@ -10,10 +11,18 @@ namespace AustellAcademyAdmissions.Controllers
     public class StudentsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly PdfService _pdfService;
 
-        public StudentsController(ApplicationDbContext context)
+       /* public StudentsController(ApplicationDbContext context)
         {
             _context = context;
+        } */
+
+
+        public StudentsController(ApplicationDbContext context, PdfService pdfService)
+        {
+            _context = context;
+            _pdfService = pdfService;
         }
 
         // List Students
@@ -119,6 +128,19 @@ namespace AustellAcademyAdmissions.Controllers
             if (student == null) return NotFound();
 
             return View(student);
+        }
+        [HttpGet]
+        public async Task<IActionResult> DownloadPdf(int id)
+        {
+            var student = await _context.Students
+                .Include(s => s.Class)
+                .FirstOrDefaultAsync(s => s.Id == id);
+
+            if (student == null)
+                return NotFound();
+
+               var pdfBytes = await _pdfService.GenerateStudentPdf(student);
+            return File(pdfBytes, "application/pdf", $"{student.Name}_Details.pdf");
         }
     }
 

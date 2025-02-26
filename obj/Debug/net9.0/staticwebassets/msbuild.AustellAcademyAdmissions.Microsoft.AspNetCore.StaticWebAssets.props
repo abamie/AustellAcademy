@@ -1224,6 +1224,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\25821235-5b33-4c8e-8e54-17c885cf08a0_Celebaration.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\2b19b55b-e960-47d0-ad52-6c53b5568f07.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AustellAcademyAdmissions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AustellAcademyAdmissions</BasePath>
+      <RelativePath>Uploads/2b19b55b-e960-47d0-ad52-6c53b5568f07.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qtvmlcvmby</Fingerprint>
+      <Integrity>YmCGOj3da3ug3X9/5LJEbb7pzaJYwfnM2DVjPhCzIPk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\2b19b55b-e960-47d0-ad52-6c53b5568f07.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\30cc8b9f-df36-464a-b5e4-cb94e46cfb1b_Ashok15th.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>AustellAcademyAdmissions</SourceId>
@@ -1277,6 +1295,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\39eb2726-922f-4b68-b770-f360c2e51827_15thStud.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3ff2c667-d67c-4018-8ce3-d11cb1657f24.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>AustellAcademyAdmissions</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/AustellAcademyAdmissions</BasePath>
+      <RelativePath>Uploads/3ff2c667-d67c-4018-8ce3-d11cb1657f24.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ac0kv09i4q</Fingerprint>
+      <Integrity>RjJDm/fTQ0eRQ3t/K3oxHlKRtqnrMPiAhCGdljwkqhk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3ff2c667-d67c-4018-8ce3-d11cb1657f24.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\51194e89-b882-4af2-8184-84358a89238f.jpg'))">
       <SourceType>Package</SourceType>

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AustellAcademyAdmissions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c229d453692f76bbf893482f2ec0ca5cb2757a1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db065b06a69f25a42ffeba7b159e28d7b932f1fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("AustellAcademyAdmissions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AustellAcademyAdmissions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

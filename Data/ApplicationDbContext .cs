@@ -15,9 +15,12 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     public DbSet<Category> Categories { get; set; }
     public DbSet<Photo> Photos { get; set; }
 
-     public DbSet<Class> Classes { get; set; }
+    public DbSet<Menu> Menus { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public DbSet<Class> Classes { get; set; }
+
+    
+     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder); // Ensure Identity models are configured
 
@@ -33,4 +36,5 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
             new ClassRoutine { Id = 9, ClassName = "Preparatory", Subject = "Mathematics", Teacher = "Mrs. Pollabi", DayOfWeek = "Tuesday", StartTime = new TimeSpan(10, 0, 0), EndTime = new TimeSpan(11, 0, 0) }
         );
     }
+    
 }

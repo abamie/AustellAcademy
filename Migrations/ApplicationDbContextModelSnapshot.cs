@@ -292,6 +292,45 @@ namespace AustellAcademyAdmissions.Migrations
                     b.ToTable("Contents");
                 });
 
+            modelBuilder.Entity("AustellAcademyAdmissions.Models.Menu", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsVisible")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ParentId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Roles")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Url")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("Menus");
+                });
+
             modelBuilder.Entity("AustellAcademyAdmissions.Models.Photo", b =>
                 {
                     b.Property<int>("Id")
@@ -594,6 +633,15 @@ namespace AustellAcademyAdmissions.Migrations
                     b.Navigation("Category");
                 });
 
+            modelBuilder.Entity("AustellAcademyAdmissions.Models.Menu", b =>
+                {
+                    b.HasOne("AustellAcademyAdmissions.Models.Menu", "Parent")
+                        .WithMany("SubMenus")
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
             modelBuilder.Entity("AustellAcademyAdmissions.Models.Student", b =>
                 {
                     b.HasOne("AustellAcademyAdmissions.Models.Class", "Class")
@@ -657,6 +705,11 @@ namespace AustellAcademyAdmissions.Migrations
             modelBuilder.Entity("AustellAcademyAdmissions.Models.Category", b =>
                 {
                     b.Navigation("Contents");
+                });
+
+            modelBuilder.Entity("AustellAcademyAdmissions.Models.Menu", b =>
+                {
+                    b.Navigation("SubMenus");
                 });
 #pragma warning restore 612, 618
         }

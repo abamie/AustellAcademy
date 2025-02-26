@@ -1,6 +1,36 @@
-﻿@using Microsoft.AspNetCore.Identity
+﻿@using AustellAcademyAdmissions.Service
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
+@inject ApplicationDbContext _context
+@inject MenuService MenuService
+
+
+@using System.Security.Claims
+
+
+
+
+
+@{
+
+    
+    var user = await UserManager.GetUserAsync(User);
+    var userRoles = user != null ? await UserManager.GetRolesAsync(user) : new List<string>();
+
+    var menus = _context.Menus
+        .Where(m => m.IsActive && m.IsVisible && (userRoles.Contains(m.Roles) || string.IsNullOrWhiteSpace(m.Roles)))
+        .OrderBy(m => m.Order)
+        .ToList();
+
+    var parentMenus = menus.Where(m => m.ParentId == null).ToList();
+}
+
+@{
+    var menuItems = await MenuService.GetUserMenusAsync(User);
+}
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -109,11 +139,20 @@
                                         Mapping</a></li>
                                 <li><a class="dropdown-item" asp-controller="Content" asp-action="NoticeBoard">Notice
                                         Board</a></li>
+                                <li><a class="dropdown-item" asp-controller="Menu" asp-action="Index">Menu Managment
+                                    </a></li>
                             </ul>
                         </li>
                     </ul>
 
-
+                    <ul class="navbar-nav">
+                        @foreach (var menu in _context.Menus.Where(m => m.IsActive).OrderBy(m => m.Order).ToList())
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@menu.Url">@menu.Title</a>
+                            </li>
+                        }
+                    </ul>
 
                     <ul class="navbar-nav ms-auto">
                         @if (SignInManager.IsSignedIn(User))

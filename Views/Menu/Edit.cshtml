@@ -1,0 +1,82 @@
+@model AustellAcademyAdmissions.Models.Menu
+
+@{
+    ViewData["Title"] = "Edit Menu";
+}
+
+<h2>Edit Menu</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Menu Title</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">URL</label>
+        <input asp-for="Url" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Parent Menu</label>
+        <select asp-for="ParentId" asp-items="ViewBag.ParentMenus" class="form-control">
+            <option value="">None (Main Menu)</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Roles (comma-separated)</label>
+        <input asp-for="Roles" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Order</label>
+        <input asp-for="Order" type="number" class="form-control" required />
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label class="form-check-label">Active</label>
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsVisible" class="form-check-input" />
+        <label class="form-check-label">Visible</label>
+    </div>
+
+    <h4>Submenus</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.SubMenus != null)
+            {
+                @foreach (var submenu in Model.SubMenus)
+                {
+                    <tr>
+                        <td>@submenu.Title</td>
+                        <td>@submenu.Url</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@submenu.Id" class="btn btn-sm btn-warning">Edit</a>
+                            <form asp-action="Delete" asp-route-id="@submenu.Id" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-sm btn-danger"
+                                    onclick="return confirm('Are you sure you want to delete this submenu?');">
+                                    Delete
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary mt-3">Save Changes</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+</form>

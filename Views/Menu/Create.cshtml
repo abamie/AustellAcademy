@@ -1,0 +1,49 @@
+@model AustellAcademyAdmissions.Models.Menu
+
+@{
+    ViewData["Title"] = "Create Menu";
+}
+
+<h2>Create Menu</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label class="form-label">Menu Title</label>
+        <input asp-for="Title" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">URL</label>
+        <input asp-for="Url" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Parent Menu</label>
+        <select asp-for="ParentId" asp-items="ViewBag.ParentMenus" class="form-control">
+            <option value="">None (Main Menu)</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Roles (comma-separated)</label>
+        <input asp-for="Roles" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Order</label>
+        <input asp-for="Order" type="number" class="form-control" required />
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsActive" class="form-check-input" />
+        <label class="form-check-label">Active</label>
+    </div>
+
+    <div class="form-check">
+        <input asp-for="IsVisible" class="form-check-input" />
+        <label class="form-check-label">Visible</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Create Menu</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Back</a>
+</form>

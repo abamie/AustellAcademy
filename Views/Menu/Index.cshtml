@@ -1,0 +1,46 @@
+@model IEnumerable<AustellAcademyAdmissions.Models.Menu>
+
+@{
+    ViewData["Title"] = "Menu List";
+}
+
+<h2>Menu List</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Create New Menu</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>URL</th>
+            <th>Roles</th>
+            <th>Order</th>
+            <th>Active</th>
+            <th>Visible</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var menu in Model)
+        {
+            <tr>
+                <td>@menu.Title</td>
+                <td>@menu.Url</td>
+                <td>@menu.Roles</td>
+                <td>@menu.Order</td>
+                <td>@(menu.IsActive ? "Yes" : "No")</td>
+                <td>@(menu.IsVisible ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@menu.Id" class="btn btn-warning btn-sm">Edit</a>
+                     <!-- Delete Button with Confirmation -->
+                    <form asp-action="Delete" asp-route-id="@menu.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm"
+                            onclick="return confirm('Are you sure you want to delete this menu?');">
+                            Delete
+                        </button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

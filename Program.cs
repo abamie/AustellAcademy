@@ -1,3 +1,4 @@
+using AustellAcademyAdmissions.Models;
 using AustellAcademyAdmissions.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +14,9 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddScoped<MenuService>();
+builder.Services.AddScoped<PdfService>();
+
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -23,10 +27,10 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Register Email Service
 builder.Services.AddTransient<EmailService>();
 
-
-
 // Add MVC Support
 builder.Services.AddControllersWithViews();
+
+
 
 var app = builder.Build();
 
@@ -36,6 +40,9 @@ using (var scope = app.Services.CreateScope())
     var services = scope.ServiceProvider;
     await CreateRoles(services);
 }
+
+// Ensure menus are seeded
+SeedMenu(app.Services);
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -48,6 +55,46 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+
+void SeedMenu(IServiceProvider serviceProvider)
+{
+    using (var scope = serviceProvider.CreateScope())
+    {
+        var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+        // Apply pending migrations
+        context.Database.Migrate();
+
+        if (!context.Menus.Any())
+        {
+            // Create Parent Menus first
+            var admissionsMenu = new Menu { Title = "Admissions", Url = "#", Roles = "Admin", Order = 2 };
+            var studentsMenu = new Menu { Title = "Students", Url = "#", Roles = "Admin,Teacher", Order = 5 };
+
+            context.Menus.AddRange(new List<Menu>
+            {
+                new Menu { Title = "Dashboard", Url = "/Dashboard", Roles = "Admin,Teacher,Student", Order = 1 },
+                admissionsMenu, // Parent Menu
+                studentsMenu,  // Parent Menu
+                new Menu { Title = "Courses", Url = "/Courses", Roles = "Teacher", Order = 7 }
+            });
+
+            context.SaveChanges(); // Save to generate IDs for parent menus
+
+            // Now add submenus referencing parent IDs
+            context.Menus.AddRange(new List<Menu>
+            {
+                new Menu { Title = "New Admission", Url = "/Admissions/Create", Roles = "Admin", Order = 3, ParentId = admissionsMenu.Id },
+                new Menu { Title = "Manage Admissions", Url = "/Admissions", Roles = "Admin", Order = 4, ParentId = admissionsMenu.Id },
+                new Menu { Title = "All Students", Url = "/Students", Roles = "Admin,Teacher", Order = 6, ParentId = studentsMenu.Id }
+            });
+
+            context.SaveChanges();
+        }
+    }
+}
+
 
 // ✅ Role Creation Function
 async Task CreateRoles(IServiceProvider serviceProvider)
@@ -81,3 +128,4 @@ async Task CreateRoles(IServiceProvider serviceProvider)
         }
     }
 }
+
