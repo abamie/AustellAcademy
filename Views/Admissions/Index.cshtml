@@ -48,11 +48,15 @@
                             <a asp-action="Confirm" asp-route-id="@admission.Id" class="btn btn-success btn-sm">
                                 Confirm & Email
                             </a>
+                            <a asp-controller="Payment" asp-action="CreatePayment" asp-route-id=@admission.Id
+                                class="btn btn-primary">Payment Now</a>
+
                         }
                         @if (admission.Status == "Approved")
                         {
-                            <a asp-action="ConvertToStudent" asp-controller="Admissions" asp-route-id="@admission.Id" class="btn btn-success">🎓 Convert to Student</a>
-                           
+                            <a asp-action="ConvertToStudent" asp-controller="Admissions" asp-route-id="@admission.Id"
+                                class="btn btn-success">🎓 Convert to Student</a>
+
                         }
 
                     </td>

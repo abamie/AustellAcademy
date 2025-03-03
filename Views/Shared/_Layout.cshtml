@@ -14,14 +14,14 @@
 
 @{
 
-    
+
     var user = await UserManager.GetUserAsync(User);
     var userRoles = user != null ? await UserManager.GetRolesAsync(user) : new List<string>();
 
     var menus = _context.Menus
-        .Where(m => m.IsActive && m.IsVisible && (userRoles.Contains(m.Roles) || string.IsNullOrWhiteSpace(m.Roles)))
-        .OrderBy(m => m.Order)
-        .ToList();
+    .Where(m => m.IsActive && m.IsVisible && (userRoles.Contains(m.Roles) || string.IsNullOrWhiteSpace(m.Roles)))
+    .OrderBy(m => m.Order)
+    .ToList();
 
     var parentMenus = menus.Where(m => m.ParentId == null).ToList();
 }
@@ -98,6 +98,8 @@
                                 <li><a class="dropdown-item" asp-controller="Admissions" asp-action="Index">Admission
                                         List</a></li>
                                 <li><a class="dropdown-item" asp-controller="Students" asp-action="Index">Student
+                                        Managment</a></li>
+                                <li><a class="dropdown-item" asp-controller="Payment" asp-action="PaymentHistory">Payment List
                                         Managment</a></li>
                             </ul>
                         </li>

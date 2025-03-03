@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AustellAcademyAdmissions.hblcywfzv5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 13:08:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:29:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/AustellAcademyAdmissions.hblcywfzv5.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AustellAcademyAdmissions.hblcywfzv5.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hblcywfzv5"},{"Name":"integrity","Value":"sha256-E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/AustellAcademyAdmissions.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 13:08:45 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022E3dz6gqGvleTz5Gz1WcBR5emBX3h2\u002BO5s8I/DleQSnw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Mar 2025 07:29:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
@@ -780,6 +780,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Feb 2025 07:30:46 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/0839d730-3092-4b95-a27e-5620ca4a295b.j0ktdsctfw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\0839d730-3092-4b95-a27e-5620ca4a295b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j0ktdsctfw"},{"Name":"integrity","Value":"sha256-bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/0839d730-3092-4b95-a27e-5620ca4a295b.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"434064"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:59:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/0839d730-3092-4b95-a27e-5620ca4a295b.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\0839d730-3092-4b95-a27e-5620ca4a295b.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"434064"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:59:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/13449e8d-487e-4957-b4b6-d7effd18cca2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\13449e8d-487e-4957-b4b6-d7effd18cca2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-v/SpJdcXhf6d1JUDVsinCt9XvB\u002Bq/9F30G78vzL306I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"314570"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v/SpJdcXhf6d1JUDVsinCt9XvB\u002Bq/9F30G78vzL306I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:50:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/13449e8d-487e-4957-b4b6-d7effd18cca2.x49wx5e5yc.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\13449e8d-487e-4957-b4b6-d7effd18cca2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x49wx5e5yc"},{"Name":"integrity","Value":"sha256-v/SpJdcXhf6d1JUDVsinCt9XvB\u002Bq/9F30G78vzL306I="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/13449e8d-487e-4957-b4b6-d7effd18cca2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"314570"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022v/SpJdcXhf6d1JUDVsinCt9XvB\u002Bq/9F30G78vzL306I=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:50:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/1b551b0f-610b-4f3c-acf9-37e06b62a90d_aswhani2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1b551b0f-610b-4f3c-acf9-37e06b62a90d_aswhani2.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -791,6 +815,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q6710lkt83"},{"Name":"integrity","Value":"sha256-XjHRrx1NwzzdV6HbS7GEid3CjMnVVfvBscHHQ/T7WFM="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/1b551b0f-610b-4f3c-acf9-37e06b62a90d_aswhani2.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29471"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022XjHRrx1NwzzdV6HbS7GEid3CjMnVVfvBscHHQ/T7WFM=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 14:29:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/1ff8103f-4441-484f-ac17-8d1f8387951c.j0ktdsctfw.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1ff8103f-4441-484f-ac17-8d1f8387951c.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j0ktdsctfw"},{"Name":"integrity","Value":"sha256-bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/1ff8103f-4441-484f-ac17-8d1f8387951c.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"434064"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 14:21:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/1ff8103f-4441-484f-ac17-8d1f8387951c.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\1ff8103f-4441-484f-ac17-8d1f8387951c.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"434064"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022bdgSyPpcjvfNf2h\u002BZuN7PY35gBfTRZFzQyfvNjQAe\u002BU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 14:21:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/218032b2-8e0c-4ce2-bcf5-90d46fd778f4.a8ahmw0no4.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\218032b2-8e0c-4ce2-bcf5-90d46fd778f4.jpg'))</AssetFile>
@@ -828,6 +864,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qtvmlcvmby"},{"Name":"integrity","Value":"sha256-YmCGOj3da3ug3X9/5LJEbb7pzaJYwfnM2DVjPhCzIPk="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/2b19b55b-e960-47d0-ad52-6c53b5568f07.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54323"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022YmCGOj3da3ug3X9/5LJEbb7pzaJYwfnM2DVjPhCzIPk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 25 Feb 2025 11:52:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/2c4cc1c5-d1ad-443d-b402-e4f6dbd4606e.6e5mbbbu9k.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\2c4cc1c5-d1ad-443d-b402-e4f6dbd4606e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6e5mbbbu9k"},{"Name":"integrity","Value":"sha256-zuvYYhNS4bVkwY3ruugYY/HH3GCpGJPIL3mDqxwP8l8="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/2c4cc1c5-d1ad-443d-b402-e4f6dbd4606e.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"101709"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zuvYYhNS4bVkwY3ruugYY/HH3GCpGJPIL3mDqxwP8l8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:56:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/2c4cc1c5-d1ad-443d-b402-e4f6dbd4606e.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\2c4cc1c5-d1ad-443d-b402-e4f6dbd4606e.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zuvYYhNS4bVkwY3ruugYY/HH3GCpGJPIL3mDqxwP8l8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"101709"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022zuvYYhNS4bVkwY3ruugYY/HH3GCpGJPIL3mDqxwP8l8=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:56:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/30cc8b9f-df36-464a-b5e4-cb94e46cfb1b_Ashok15th.6ou2n8gm26.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\30cc8b9f-df36-464a-b5e4-cb94e46cfb1b_Ashok15th.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -864,6 +912,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aaIc9h77TPpjFxch8h5jfsu0jmiWGOWmFn//QSaGdxc="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"82697"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aaIc9h77TPpjFxch8h5jfsu0jmiWGOWmFn//QSaGdxc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 07:27:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/3fe6e2fb-e275-4269-86b9-6af8ce0a0cab.2jcdpjcj3l.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3fe6e2fb-e275-4269-86b9-6af8ce0a0cab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2jcdpjcj3l"},{"Name":"integrity","Value":"sha256-UhqBGS8F2Yf7RV0ul\u002BqQegmGCGZ8sSURhhkNp12sipM="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/3fe6e2fb-e275-4269-86b9-6af8ce0a0cab.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"55679"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022UhqBGS8F2Yf7RV0ul\u002BqQegmGCGZ8sSURhhkNp12sipM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:23:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/3fe6e2fb-e275-4269-86b9-6af8ce0a0cab.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3fe6e2fb-e275-4269-86b9-6af8ce0a0cab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UhqBGS8F2Yf7RV0ul\u002BqQegmGCGZ8sSURhhkNp12sipM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"55679"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022UhqBGS8F2Yf7RV0ul\u002BqQegmGCGZ8sSURhhkNp12sipM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:23:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/3ff2c667-d67c-4018-8ce3-d11cb1657f24.ac0kv09i4q.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\3ff2c667-d67c-4018-8ce3-d11cb1657f24.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -887,6 +947,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"syxfeqnhjb"},{"Name":"integrity","Value":"sha256-TIANPR9czWCHPd4wtAMfJ1oU1Y\u002B/169Gag1ry602rYQ="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/51194e89-b882-4af2-8184-84358a89238f.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"97050"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022TIANPR9czWCHPd4wtAMfJ1oU1Y\u002B/169Gag1ry602rYQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 09:40:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/558b1bdd-82dd-4499-8684-738c7739ad7a.6ou2n8gm26.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\558b1bdd-82dd-4499-8684-738c7739ad7a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ou2n8gm26"},{"Name":"integrity","Value":"sha256-OuF2TH\u002BUWFHE1LHs/O6QUUwooaDXp\u002BkQn6hK2T3PkOE="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/558b1bdd-82dd-4499-8684-738c7739ad7a.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"363256"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OuF2TH\u002BUWFHE1LHs/O6QUUwooaDXp\u002BkQn6hK2T3PkOE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 11:02:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/558b1bdd-82dd-4499-8684-738c7739ad7a.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\558b1bdd-82dd-4499-8684-738c7739ad7a.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OuF2TH\u002BUWFHE1LHs/O6QUUwooaDXp\u002BkQn6hK2T3PkOE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"363256"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022OuF2TH\u002BUWFHE1LHs/O6QUUwooaDXp\u002BkQn6hK2T3PkOE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 11:02:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/6081aee3-6b7e-4b90-bac9-e8bc32efcdb7_aswhani2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\6081aee3-6b7e-4b90-bac9-e8bc32efcdb7_aswhani2.jpg'))</AssetFile>
@@ -923,6 +995,30 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n7gbcms77r"},{"Name":"integrity","Value":"sha256-LbWdm2KrhHadpGTOpBGPc7OshVhpF8nzJBjA5e93gpc="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/78424a0d-c1f2-45d1-8b6b-5f428f8b3177_aswhani.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"133438"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LbWdm2KrhHadpGTOpBGPc7OshVhpF8nzJBjA5e93gpc=\u0022"},{"Name":"Last-Modified","Value":"Sat, 22 Feb 2025 14:14:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/7dbd79ee-b6f1-4f1f-adf4-1b959cb48e77.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\7dbd79ee-b6f1-4f1f-adf4-1b959cb48e77.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R4A1KRolNHnk\u002BN5CSh0zPQ4edOs\u002BauRK4O09GfNUfTc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53572"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R4A1KRolNHnk\u002BN5CSh0zPQ4edOs\u002BauRK4O09GfNUfTc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 15:38:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/7dbd79ee-b6f1-4f1f-adf4-1b959cb48e77.ld5ehfikt5.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\7dbd79ee-b6f1-4f1f-adf4-1b959cb48e77.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ld5ehfikt5"},{"Name":"integrity","Value":"sha256-R4A1KRolNHnk\u002BN5CSh0zPQ4edOs\u002BauRK4O09GfNUfTc="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/7dbd79ee-b6f1-4f1f-adf4-1b959cb48e77.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53572"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022R4A1KRolNHnk\u002BN5CSh0zPQ4edOs\u002BauRK4O09GfNUfTc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 15:38:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/7f59c7eb-0357-4edf-ba5f-b9262be5adba.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\7f59c7eb-0357-4edf-ba5f-b9262be5adba.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rkGEDhoZoC/O89KoXQGrsyfT9FjQ4EONf766AeW\u002BLS4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65708"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rkGEDhoZoC/O89KoXQGrsyfT9FjQ4EONf766AeW\u002BLS4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:43:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/7f59c7eb-0357-4edf-ba5f-b9262be5adba.y4i6hvpcuu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\7f59c7eb-0357-4edf-ba5f-b9262be5adba.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y4i6hvpcuu"},{"Name":"integrity","Value":"sha256-rkGEDhoZoC/O89KoXQGrsyfT9FjQ4EONf766AeW\u002BLS4="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/7f59c7eb-0357-4edf-ba5f-b9262be5adba.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65708"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022rkGEDhoZoC/O89KoXQGrsyfT9FjQ4EONf766AeW\u002BLS4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:43:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/9636e3d2-f311-4e04-adef-88759f1c01dc_signaswhani2.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\9636e3d2-f311-4e04-adef-88759f1c01dc_signaswhani2.jpg'))</AssetFile>
@@ -972,6 +1068,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zvg357h9vt"},{"Name":"integrity","Value":"sha256-P2mwu9u9R7Nt75CsBh6oaiCr\u002BCiUYdDokzN2tR8JRtk="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/a8d0761b-8511-4e40-b70e-cdb8d41c820c.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32327"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022P2mwu9u9R7Nt75CsBh6oaiCr\u002BCiUYdDokzN2tR8JRtk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 24 Feb 2025 06:32:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/a9f15e93-1b5b-47a8-bb15-fc3bc2b97a4f.04234m0zla.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\a9f15e93-1b5b-47a8-bb15-fc3bc2b97a4f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"04234m0zla"},{"Name":"integrity","Value":"sha256-kHYt3bjFjmb8QXDA12kdjAkIs8INjG9a\u002Bld4cJyfmPA="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/a9f15e93-1b5b-47a8-bb15-fc3bc2b97a4f.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"679906"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kHYt3bjFjmb8QXDA12kdjAkIs8INjG9a\u002Bld4cJyfmPA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:21:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/a9f15e93-1b5b-47a8-bb15-fc3bc2b97a4f.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\a9f15e93-1b5b-47a8-bb15-fc3bc2b97a4f.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kHYt3bjFjmb8QXDA12kdjAkIs8INjG9a\u002Bld4cJyfmPA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"679906"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kHYt3bjFjmb8QXDA12kdjAkIs8INjG9a\u002Bld4cJyfmPA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 10:21:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/c174f375-a32b-4369-a616-63847e61dd0f_aswhani4.9kp4rlpyig.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\c174f375-a32b-4369-a616-63847e61dd0f_aswhani4.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -1007,6 +1115,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p1n2gxiffb"},{"Name":"integrity","Value":"sha256-LfVKah/J/ZBml7UhdLblep9\u002BPKftJlUdcp0TKpjQVGQ="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/ecaae5d2-1600-4cec-92a6-c2e3b8b928c2_20190916_193440.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"527408"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022LfVKah/J/ZBml7UhdLblep9\u002BPKftJlUdcp0TKpjQVGQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 16:32:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/ee01b955-4b0c-4925-aed8-1546407168bb.1tpi0pxiiz.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ee01b955-4b0c-4925-aed8-1546407168bb.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1tpi0pxiiz"},{"Name":"integrity","Value":"sha256-2xjZuMwNKKOvq154TExWuSHMhzcu\u002BYJnewza8kmKy64="},{"Name":"label","Value":"_content/AustellAcademyAdmissions/Uploads/ee01b955-4b0c-4925-aed8-1546407168bb.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"296487"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222xjZuMwNKKOvq154TExWuSHMhzcu\u002BYJnewza8kmKy64=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 14:10:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/ee01b955-4b0c-4925-aed8-1546407168bb.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\ee01b955-4b0c-4925-aed8-1546407168bb.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2xjZuMwNKKOvq154TExWuSHMhzcu\u002BYJnewza8kmKy64="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"296487"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00222xjZuMwNKKOvq154TExWuSHMhzcu\u002BYJnewza8kmKy64=\u0022"},{"Name":"Last-Modified","Value":"Thu, 27 Feb 2025 14:10:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AustellAcademyAdmissions/Uploads/f2be0e88-57ba-4f2d-9883-87777f4d2757_aswhani4.9kp4rlpyig.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Uploads\f2be0e88-57ba-4f2d-9883-87777f4d2757_aswhani4.jpg'))</AssetFile>

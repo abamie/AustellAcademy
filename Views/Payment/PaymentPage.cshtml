@@ -1,0 +1,10 @@
+@model AustellAcademyAdmissions.Models.Admission
+
+<h2>Payment for Admission - @Model.Name</h2>
+<p>Total Fee: Rs 3500</p>
+
+<form method="post" asp-action="CreatePayment" asp-controller="Payment">
+    <input type="hidden" name="AdmissionId" value="@Model.Id" />
+    <input type="hidden" name="amount" value="3500" />
+    <button type="submit" class="btn btn-primary">Pay Now</button>
+</form>

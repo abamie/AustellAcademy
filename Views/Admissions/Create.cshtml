@@ -14,21 +14,32 @@
     <div class="mb-3">
         <label class="form-label">Student Name</label>
         <input asp-for="Name" class="form-control" required />
+         <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label class="form-label">Email</label>
         <input asp-for="Email" class="form-control" type="email" required />
+         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
         <label class="form-label">Phone</label>
         <input asp-for="Phone" class="form-control" required />
+         <span asp-validation-for="Phone" class="text-danger"></span>
     </div>
+
+    <div class="mb-3">
+        <label class="form-label">Date of Birth</label>
+        <input asp-for="DateOfBirth" class="form-control" required />
+         <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+
 
     <div class="mb-3">
         <label class="form-label">Address</label>
         <input asp-for="Address" class="form-control" required />
+        <span asp-validation-for="Address" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
@@ -39,6 +50,7 @@
             <option value="Female">Female</option>
             <option value="Other">Other</option>
         </select>
+         <span asp-validation-for="Gender" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
@@ -51,7 +63,7 @@
     <div class="mb-3">
         <label class="form-label">Upload Document (Optional)</label>
         <input type="file" name="documentFile" class="form-control" />
-        
+
         @if (!string.IsNullOrEmpty(Model.DocumentPath))
         {
             <p>Current File: <a href="@Url.Content(Model.DocumentPath)" target="_blank">View Document</a></p>
@@ -71,5 +83,8 @@
     <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
 
-
-
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

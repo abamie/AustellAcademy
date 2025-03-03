@@ -1,0 +1,37 @@
+@model PaymentModel
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<h2>Payment for Admission - @Model.admission.Name</h2>
+<p>Total Fee: @Model.Amount INR</p>
+
+<button id="payBtn">Pay @Model.Amount INR</button>
+
+<script>
+    document.getElementById("payBtn").onclick = function () {
+        var options = {
+            "key": "@(ViewBag.Key)",
+            "amount": "@(Model.Amount * 100)",
+            "currency": "INR",
+            "name": "Austell Academy",
+            "order_id": "@Model.OrderId",
+            "handler": function (response) {
+                $.post("/Payment/VerifyPayment", {
+                    OrderId: "@Model.OrderId",
+                    PaymentId: response.razorpay_payment_id,
+                    Signature: response.razorpay_signature,
+                    amount : response.amount,
+                    AdmissionId : "@Model.AdmissionId",
+                    currency : "@Model.Currency"
+                }, function (res) {
+                     alert(res.message);
+                  //  alert("Payment Successful! Payment ID: " + response.razorpay_payment_id);
+                  window.location.href = "/Payment/Success?paymentid=" + response.razorpay_payment_id;
+                   
+                });
+            }
+        };
+
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+    };
+</script>

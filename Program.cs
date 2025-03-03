@@ -16,6 +16,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 builder.Services.AddScoped<MenuService>();
 builder.Services.AddScoped<PdfService>();
+builder.Services.AddScoped<RazorpayService>();
 
 
 builder.Services.ConfigureApplicationCookie(options =>

@@ -8,7 +8,7 @@
     <div class="card shadow-lg p-4">
         <h2 class="text-success">🎉 Application Submitted Successfully!</h2>
         <p class="lead">
-            Thank you for applying to <strong>Austell Academy</strong>. Our admissions team will review your application 
+            Thank you for applying to <strong>Austell Academy</strong>. Our admissions team will review your application
             and contact you shortly.
         </p>
 
@@ -55,7 +55,14 @@
             }
         </table>
 
+
         <div class="mt-4">
+             @if (Model.Id>0)
+            {
+             <a asp-controller="Payment" asp-action="CreatePayment" asp-route-id=@Model.Id
+                                class="btn btn-primary">Payment Now</a>
+       
+            }
             <a asp-controller="Home" asp-action="Index" class="btn btn-primary">🏠 Return to Home</a>
         </div>
     </div>
@@ -67,6 +74,7 @@
         margin: auto;
         border-radius: 12px;
     }
+
     th {
         width: 30%;
     }

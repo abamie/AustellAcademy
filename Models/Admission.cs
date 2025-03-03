@@ -5,12 +5,14 @@ namespace AustellAcademyAdmissions.Models
 {
     public class Admission
     {
+         [Key]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Full Name is required.")]
         [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters.")]
         public required string Name { get; set; }
 
+        [StringLength(100, ErrorMessage = "Name cannot exceed 100 characters.")]
         [Required(ErrorMessage = "Email Address is required.")]
         [EmailAddress(ErrorMessage = "Invalid Email Address.")]
         public required string Email { get; set; }
@@ -39,3 +41,4 @@ namespace AustellAcademyAdmissions.Models
         public Class Class { get; set; }
     }
 }
+

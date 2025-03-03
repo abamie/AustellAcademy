@@ -1,0 +1,28 @@
+@model List<Payment>
+
+<h2>Payment History</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Payment ID</th>
+            <th>Amount</th>
+            <th>Currency</th>
+            <th>Status</th>
+            <th>Payment Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payment in Model)
+        {
+            <tr>
+                <td>@payment.OrderId</td>
+                <td>@payment.PaymentId</td>
+                <td>@payment.Amount</td>
+                <td>@payment.Currency</td>
+                <td>@payment.Status</td>
+                <td>@payment.PaymentDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

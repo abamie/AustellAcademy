@@ -273,7 +273,8 @@ namespace AustellAcademyAdmissions.Controllers
                     Address = model.Address,
                     Gender = model.Gender,
                     ClassId = model.ClassId,
-                    Status = model.Status
+                    Status = model.Status,
+                    DateOfBirth=model.DateOfBirth
                 };
 
                 if (documentFile != null && documentFile.Length > 0)
@@ -346,9 +347,11 @@ namespace AustellAcademyAdmissions.Controllers
                 Phone = admission.Phone,
                 Address = admission.Address,
                 Gender = admission.Gender,
-                ClassName = admission.Class?.ClassName,
+                ClassName = admission.Class.ClassName,
                 Status = admission.Status,
-                DocumentPath = admission.DocumentPath
+                DocumentPath = admission.DocumentPath,
+                Id=id,
+                DateOfBirth=admission.DateOfBirth
             };
 
             return View(viewModel);
@@ -374,7 +377,8 @@ namespace AustellAcademyAdmissions.Controllers
                 Address = admission.Address,
                 Gender = admission.Gender,
                 ClassId = admission.ClassId,
-                EnrollmentDate = DateTime.Now
+                EnrollmentDate = DateTime.Now,
+                Status = "Active"
             };
 
             _context.Students.Add(student);

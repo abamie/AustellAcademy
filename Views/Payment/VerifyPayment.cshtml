@@ -1,0 +1,23 @@
+@model AustellAcademyAdmissions.Models.Payment
+
+@{
+    ViewData["Title"] = "Verify Payment";
+}
+
+<h2>Verify Payment</h2>
+
+<p>Order ID: @Model.OrderId</p>
+<p>Amount Paid: ₹@Model.Amount</p>
+<p>Status: <strong>@Model.Status</strong></p>
+
+@if (Model.Status == "Pending")
+{
+    <form method="post" asp-action="ConfirmPayment" asp-controller="Payment">
+        <input type="hidden" name="orderId" value="@Model.OrderId" />
+        <button type="submit" class="btn btn-success">Verify Payment</button>
+    </form>
+}
+else
+{
+    <p class="text-success">Payment has already been verified!</p>
+}

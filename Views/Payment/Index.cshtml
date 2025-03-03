@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Admission Fee Payment";
+}
+
+<h2>Admission Fee Payment</h2>
+<form>
+    <button type="button" id="pay-btn" class="btn btn-success">Pay Now</button>
+</form>
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    document.getElementById('pay-btn').addEventListener('click', function () {
+        var options = {
+            "key": "@ViewBag.KeyId",
+            "amount": "@ViewBag.Amount",
+            "currency": "INR",
+            "name": "Austell Academy",
+            "description": "Admission Fee Payment",
+            "order_id": "@ViewBag.OrderId",
+            "handler": function (response) {
+                alert("Payment Successful! Payment ID: " + response.razorpay_payment_id);
+                window.location.href = "/Payment/Success?razorpay_payment_id=" + response.razorpay_payment_id;
+            },
+            "theme": { "color": "#3399cc" }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+    });
+</script>
